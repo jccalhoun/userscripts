@@ -11,10 +11,11 @@
 // @match       *://*.thetakeout.com/*
 // @match       *://*.theonion.com/*
 // @match       *://*.theinventory.com/*
+// @match       *://*.kinja.com/*
 // @grant       none
-// @version     2019-04-17
-// @author      -
-// @description 4/17/2020, 12:49:13 PM
+// @version     2019-04-22
+// @author      jccalhoun
+// @description redirects avclub.com to avclub.com/latest
 // ==/UserScript==
 var els = document.querySelectorAll("a[href^='//avclub.com']");
 
